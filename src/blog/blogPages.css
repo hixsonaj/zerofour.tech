@@ -1,0 +1,17 @@
+.blog_post_container {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.blog_post_date {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.blog_post_container p:not(.blog_post_date) {
+  text-align: justify;
+  text-indent: 32px;
+  margin: 8px auto;
+  max-width: 800px;
+}

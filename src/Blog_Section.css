@@ -3,13 +3,6 @@
   padding-top: 40px;
 }
 
-.Blog_Subtitle {
-  color: #777;
-  margin-bottom: 8px;
-  padding-left: 32px;
-  font-size: 18px;
-}
-
 .Blog_Posts {
   display: flex;
   flex-direction: column;
@@ -30,6 +23,20 @@
 .Blog_Post p {
   margin-top: 10px;
   line-height: 1.5;
+}
+
+.Blog_Post h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.Blog_Title_Link {
+  color: black;
+  text-decoration: none;
+}
+
+.Blog_Title_Link:hover {
+  text-decoration: underline;
 }
 
 .Blog_Date {

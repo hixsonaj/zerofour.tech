@@ -10,7 +10,7 @@ export default function Home() {
     <div className='Home_Container'>
       <img
         className="Alex_Hixson2"
-        src={'/project_images/Alex_Hixson2.jpg'}
+        src={'/project_images/Alex_Hixson2.png'}
         alt={'Alex Hixson'}/>
       <h1>ZERO FOUR TECH</h1>
       <p>A Development Tool</p>
